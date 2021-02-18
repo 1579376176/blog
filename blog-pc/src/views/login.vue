@@ -152,8 +152,6 @@ nav > .nav_link > ul > li > a:hover {
 nav > .nav_link > ul > li:last-child {
   margin-right: 0;
 }
-.container {
-}
 
 .container > .login_body {
   width: 1000px;
