@@ -1,6 +1,7 @@
 <template>
   <header>
     <div class="img-wrap">
+      <!-- 头部 -->
       <div>
         <img src="../assets/head.jpg" style="width: 100%" id="h" />
         <div class="font">
@@ -39,14 +40,15 @@
             </div></span
           >
         </div>
+        
       </div>
 
       <!-- 主页按钮 -->
-      <div id="nav">
-        <span>&emsp;主页&emsp;&emsp;</span>
-        <span>日志&nbsp;</span>
-        <span>个人档</span>
-        <span>分享</span>
+      <div id="nav" >
+        <a href="/">主&nbsp;页&nbsp;</a>
+        <a href="/journal">日&nbsp;志&nbsp;</a>
+        <a href="/person">个人档&nbsp;</a>
+        <a href="">分&nbsp;享&nbsp;</a>
       </div>
       <!-- 彩画 -->
       <div style="overflow: hidden;width: 100%">
@@ -55,17 +57,8 @@
       <!-- 背景图片 -->
       <div style="overflow: hidden;width: 100%">
         <img src="../assets/bg.jpg" alt="" />
-        <div class="content">
+        <div class="content" >
           <div
-            id="module322"
-            bannertitle="文本"
-            _moduletype="1"
-            _modulestyle="86"
-            _moduleid="322"
-            class="form form322 formStyle86 siteEditor"
-            title=""
-            _sys="0"
-            _banid=""
             style="
               position: absolute;
               top: 134px;
@@ -74,19 +67,6 @@
               height: 61px;
               animation: 0s ease 0s 1 normal none running none;
             "
-            _side="0"
-            _intab="0"
-            _inmulmcol="0"
-            _infullmeasure="0"
-            _inpack="0"
-            _inpopupzone="0"
-            _infullmeasurepack="317"
-            _intabpack="0"
-            _inaccordionpack="0"
-            _autoheight="0"
-            _global="false"
-            _independent="false"
-            data-scrollbar="0"
           >
             <div class="lightModuleOuterContent lightModuleOuterContent322">
               <div class="fk-editor simpleText fk-editor-break-word">
@@ -104,15 +84,6 @@
             </div>
           </div>
           <div
-            id="module323"
-            bannertitle="文本"
-            _moduletype="1"
-            _modulestyle="86"
-            _moduleid="323"
-            class="form form323 formStyle86 siteEditor"
-            title=""
-            _sys="0"
-            _banid=""
             style="
               position: absolute;
               top: 220px;
@@ -120,19 +91,6 @@
               width: 134px;
               animation: 0s ease 0s 1 normal none running none;
             "
-            _side="0"
-            _intab="0"
-            _inmulmcol="0"
-            _infullmeasure="0"
-            _inpack="0"
-            _inpopupzone="0"
-            _infullmeasurepack="317"
-            _intabpack="0"
-            _inaccordionpack="0"
-            _autoheight="0"
-            _global="false"
-            _independent="false"
-            data-scrollbar="0"
           >
             <div class="lightModuleOuterContent lightModuleOuterContent323">
               <div class="fk-editor simpleText fk-editor-break-word">
@@ -154,15 +112,6 @@
             </div>
           </div>
           <div
-            id="module324"
-            bannertitle="图片"
-            _moduletype="1"
-            _modulestyle="79"
-            _moduleid="324"
-            class="form form324 formStyle79"
-            title=""
-            _sys="0"
-            _banid=""
             style="
               position: absolute;
               top: 143px;
@@ -170,19 +119,6 @@
               width: 2px;
               animation: 0s ease 0s 1 normal none running none;
             "
-            _side="0"
-            _intab="0"
-            _inmulmcol="0"
-            _infullmeasure="0"
-            _inpack="0"
-            _inpopupzone="0"
-            _infullmeasurepack="317"
-            _intabpack="0"
-            _inaccordionpack="0"
-            _autoheight="0"
-            _global="false"
-            _independent="false"
-            data-scrollbar="0"
           >
             <div class="lightModuleOuterContent lightModuleOuterContent324">
               <div class="floatImg floatImg_J floatImg_J_special">
@@ -203,27 +139,6 @@
             </div>
           </div>
           <div
-            id="module325"
-            ssr="true"
-            _moduletype="1"
-            _modulestyle="116"
-            _moduleid="325"
-            title=""
-            _sys="0"
-            _banid=""
-            _side="0"
-            _intab="0"
-            _inmulmcol="0"
-            _infullmeasure="0"
-            _inpack="0"
-            _inpopupzone="0"
-            _infullmeasurepack="317"
-            _intabpack="0"
-            _inaccordionpack="0"
-            _autoheight="0"
-            data-scrollbar="0"
-            data-server-rendered="true"
-            class="form form325 formStyle116"
             style="
               position: absolute;
               top: 71px;
@@ -263,11 +178,14 @@
                             <div
                               class="m_news_content"
                               style="
+                              
+                                background-image: url(../assets/hk.jpg);
                                 animation: 0s ease 0s 1 normal none running none;
                               "
                             >
+                            <!-- <img src="../assets/hk.jpg" alt=""> -->
                               <!---->
-                              <div class="m_news_img left_img">
+                              <div class="">
                                 <!---->
                                 <a
                                   id="news_img1"
@@ -275,7 +193,7 @@
                                   target="_blank"
                                   class="news_img"
                                   style="
-                                    background-image: url(//24819213.s61i.faiusr.com/4/AD0IjezqCxAEGAAgrcH6_AUo5qDN7AUwvwM42AE!640x640.png);
+                                    
                                   "
                                 ></a>
                                 <div class="news_title in_img_title">
@@ -292,11 +210,12 @@
                                   >
                                 </div>
                               </div>
+                              <!-- 第一个文章 -->
                               <div id="m_news_info1" class="m_news_info">
                                 <div class="news_title">
-                                  <!---->
+                                  <!----><!-- 跳转路由 -->
                                   <a
-                                    href="/nd.jsp?id=1#_np=2_325"
+                                    href=""
                                     target="_blank"
                                     title="深深的爱，淡淡的香"
                                     class="article_title"
@@ -321,10 +240,11 @@
                               <!---->
                             </div>
                             <!---->
-                            <div class="m_col_line"></div>
+                            
                             <div
                               class="m_news_content"
                               style="
+                              width:500px;height:500px;
                                 animation: 0s ease 0s 1 normal none running none;
                               "
                             >
@@ -349,7 +269,7 @@
                                     class="article_title"
                                     ><!---->
                                     <span class="title_content">
-                                      遇见你，不知是美好还是错误
+                                      遇见你，不知是美好还是错误bbbbbbb
                                     </span></a
                                   >
                                 </div>
@@ -386,20 +306,7 @@
                             <!---->
                           </div>
                         </div>
-                        <section>
-                          <i
-                            class="m_news_arrow news_left_arrow"
-                            style="display: none"
-                            ><svg class="slider_svg">
-                              <use xlink:href="#icon_arrow"></use></svg
-                          ></i>
-                          <i
-                            class="m_news_arrow news_right_arrow"
-                            style="display: none"
-                            ><svg class="slider_svg">
-                              <use xlink:href="#icon_arrow1"></use></svg
-                          ></i>
-                        </section>
+
                       </div>
                     </div>
                     <!---->
@@ -411,29 +318,7 @@
             </div>
           </div>
           <div
-            id="module326"
-            bannertitle="图片"
-            _moduletype="1"
-            _modulestyle="79"
-            _moduleid="326"
-            class="form form326 formStyle79"
-            title=""
-            _sys="0"
-            _banid=""
             style="position: absolute; top: 466px; left: 224px; width: 976px"
-            _side="0"
-            _intab="0"
-            _inmulmcol="0"
-            _infullmeasure="0"
-            _inpack="0"
-            _inpopupzone="0"
-            _infullmeasurepack="317"
-            _intabpack="0"
-            _inaccordionpack="0"
-            _autoheight="0"
-            _global="false"
-            _independent="false"
-            data-scrollbar="0"
           >
             <div class="lightModuleOuterContent lightModuleOuterContent326">
               <div class="floatImg floatImg_J floatImg_J_special">
@@ -454,27 +339,6 @@
             </div>
           </div>
           <div
-            id="module327"
-            ssr="true"
-            _moduletype="1"
-            _modulestyle="116"
-            _moduleid="327"
-            title=""
-            _sys="0"
-            _banid=""
-            _side="0"
-            _intab="0"
-            _inmulmcol="0"
-            _infullmeasure="0"
-            _inpack="0"
-            _inpopupzone="0"
-            _infullmeasurepack="317"
-            _intabpack="0"
-            _inaccordionpack="0"
-            _autoheight="0"
-            data-scrollbar="0"
-            data-server-rendered="true"
-            class="form form327 formStyle116"
             style="
               position: absolute;
               top: 489px;
@@ -681,15 +545,7 @@
             </div>
           </div>
           <div
-            id="module328"
-            bannertitle="文本"
-            _moduletype="1"
-            _modulestyle="86"
-            _moduleid="328"
-            class="form form328 formStyle86 siteEditor"
-            title=""
-            _sys="0"
-            _banid=""
+            
             style="
               position: absolute;
               top: 958px;
@@ -698,19 +554,6 @@
               height: 87px;
               animation: 0s ease 0s 1 normal none running none;
             "
-            _side="0"
-            _intab="0"
-            _inmulmcol="0"
-            _infullmeasure="0"
-            _inpack="0"
-            _inpopupzone="0"
-            _infullmeasurepack="317"
-            _intabpack="0"
-            _inaccordionpack="0"
-            _autoheight="0"
-            _global="false"
-            _independent="false"
-            data-scrollbar="0"
           >
             <div class="lightModuleOuterContent lightModuleOuterContent328">
               <div class="fk-editor simpleText fk-editor-break-word">
@@ -733,27 +576,7 @@
             </div>
           </div>
           <div
-            id="module329"
-            ssr="true"
-            _moduletype="1"
-            _modulestyle="117"
-            _moduleid="329"
-            title=""
-            _sys="0"
-            _banid=""
-            _side="0"
-            _intab="0"
-            _inmulmcol="0"
-            _infullmeasure="0"
-            _inpack="0"
-            _inpopupzone="0"
-            _infullmeasurepack="317"
-            _intabpack="0"
-            _inaccordionpack="0"
-            _autoheight="1"
-            data-scrollbar="0"
-            data-server-rendered="true"
-            class="form form329 formStyle117"
+           
             style="
               position: absolute;
               top: 1072px;
@@ -790,34 +613,12 @@
                             class="fk-elemZoneBg J_zoneContentBg fk-accordionPackBg"
                           ></div>
                           <div
-                            id="module565"
-                            bannertitle="图片"
-                            _moduletype="1"
-                            _modulestyle="79"
-                            _moduleid="565"
-                            class="form form565 formStyle79"
-                            title=""
-                            _sys="0"
-                            _banid=""
                             style="
                               position: absolute;
                               top: 0px;
                               left: -4px;
                               width: 370px;
                             "
-                            _side="0"
-                            _intab="0"
-                            _inmulmcol="0"
-                            _infullmeasure="0"
-                            _inpack="0"
-                            _inpopupzone="0"
-                            _infullmeasurepack="0"
-                            _intabpack="0"
-                            _inaccordionpack="329"
-                            _autoheight="0"
-                            _global="false"
-                            _independent="false"
-                            data-scrollbar="0"
                           >
                             <div
                               class="lightModuleOuterContent lightModuleOuterContent565"
@@ -844,34 +645,13 @@
                             </div>
                           </div>
                           <div
-                            id="module572"
-                            bannertitle="文本"
-                            _moduletype="1"
-                            _modulestyle="86"
-                            _moduleid="572"
-                            class="form form572 formStyle86 siteEditor"
-                            title=""
-                            _sys="0"
-                            _banid=""
+                           
                             style="
                               position: absolute;
                               top: 375px;
                               left: 68px;
                               width: 225px;
                             "
-                            _side="0"
-                            _intab="0"
-                            _inmulmcol="0"
-                            _infullmeasure="0"
-                            _inpack="0"
-                            _inpopupzone="0"
-                            _infullmeasurepack="0"
-                            _intabpack="0"
-                            _inaccordionpack="329"
-                            _autoheight="0"
-                            _global="false"
-                            _independent="false"
-                            data-scrollbar="0"
                           >
                             <div
                               class="lightModuleOuterContent lightModuleOuterContent572"
@@ -904,34 +684,13 @@
                             class="fk-elemZoneBg J_zoneContentBg fk-accordionPackBg"
                           ></div>
                           <div
-                            id="module564"
-                            bannertitle="图片"
-                            _moduletype="1"
-                            _modulestyle="79"
-                            _moduleid="564"
-                            class="form form564 formStyle79"
-                            title=""
-                            _sys="0"
-                            _banid=""
                             style="
                               position: absolute;
                               top: 0px;
                               left: -1px;
                               width: 277px;
                             "
-                            _side="0"
-                            _intab="0"
-                            _inmulmcol="0"
-                            _infullmeasure="0"
-                            _inpack="0"
-                            _inpopupzone="0"
-                            _infullmeasurepack="0"
-                            _intabpack="0"
-                            _inaccordionpack="329"
-                            _autoheight="0"
-                            _global="false"
-                            _independent="false"
-                            data-scrollbar="0"
+                            
                           >
                             <div
                               class="lightModuleOuterContent lightModuleOuterContent564"
@@ -975,34 +734,14 @@
                             class="fk-elemZoneBg J_zoneContentBg fk-accordionPackBg"
                           ></div>
                           <div
-                            id="module544"
-                            bannertitle="图片"
-                            _moduletype="1"
-                            _modulestyle="79"
-                            _moduleid="544"
-                            class="form form544 formStyle79"
-                            title=""
-                            _sys="0"
-                            _banid=""
+                           
                             style="
                               position: absolute;
                               top: 1px;
                               left: -8px;
                               width: 370px;
                             "
-                            _side="0"
-                            _intab="0"
-                            _inmulmcol="0"
-                            _infullmeasure="0"
-                            _inpack="0"
-                            _inpopupzone="0"
-                            _infullmeasurepack="0"
-                            _intabpack="0"
-                            _inaccordionpack="329"
-                            _autoheight="0"
-                            _global="false"
-                            _independent="false"
-                            data-scrollbar="0"
+                            
                           >
                             <div
                               class="lightModuleOuterContent lightModuleOuterContent544"
@@ -1030,34 +769,12 @@
                             </div>
                           </div>
                           <div
-                            id="module570"
-                            bannertitle="文本"
-                            _moduletype="1"
-                            _modulestyle="86"
-                            _moduleid="570"
-                            class="form form570 formStyle86 siteEditor"
-                            title=""
-                            _sys="0"
-                            _banid=""
                             style="
                               position: absolute;
                               top: 377px;
                               left: 77px;
                               width: 210px;
                             "
-                            _side="0"
-                            _intab="0"
-                            _inmulmcol="0"
-                            _infullmeasure="0"
-                            _inpack="0"
-                            _inpopupzone="0"
-                            _infullmeasurepack="0"
-                            _intabpack="0"
-                            _inaccordionpack="329"
-                            _autoheight="0"
-                            _global="false"
-                            _independent="false"
-                            data-scrollbar="0"
                           >
                             <div
                               class="lightModuleOuterContent lightModuleOuterContent570"
@@ -1091,34 +808,14 @@
                             class="fk-elemZoneBg J_zoneContentBg fk-accordionPackBg"
                           ></div>
                           <div
-                            id="module546"
-                            bannertitle="图片"
-                            _moduletype="1"
-                            _modulestyle="79"
-                            _moduleid="546"
-                            class="form form546 formStyle79"
-                            title=""
-                            _sys="0"
-                            _banid=""
+                           
                             style="
                               position: absolute;
                               top: -1px;
                               left: -6px;
                               width: 277px;
                             "
-                            _side="0"
-                            _intab="0"
-                            _inmulmcol="0"
-                            _infullmeasure="0"
-                            _inpack="0"
-                            _inpopupzone="0"
-                            _infullmeasurepack="0"
-                            _intabpack="0"
-                            _inaccordionpack="329"
-                            _autoheight="0"
-                            _global="false"
-                            _independent="false"
-                            data-scrollbar="0"
+                           
                           >
                             <div
                               class="lightModuleOuterContent lightModuleOuterContent546"
@@ -3060,7 +2757,7 @@ export default {};
 #nav {
   position: absolute;
   left: 50%;
-  margin-left: -188px;
+  margin-left: -128px;
   margin-top: -80px;
 }
 .content {
@@ -3087,4 +2784,5 @@ export default {};
   border-radius: 3px;
   box-shadow: inset 0 1.5px 5px -1px #fff;
 }
+
 </style>
